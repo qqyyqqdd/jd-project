@@ -1,0 +1,86 @@
+.w { /*版心公共类*/
+	width: 1190px;
+	margin: 0 auto;
+}
+.fl { /*左浮动公共类*/
+	float: left;
+}
+.fr { /*右浮动公共类*/
+	float: right;
+}
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+body {
+	background-color: #f6f6f6;
+}
+
+
+
+/* header start */
+header {
+	height: 80px;
+	background-color: #020000;
+}
+a {
+	text-decoration: none;
+	color: #999;
+	font-size: 12px;
+}
+a:hover {
+	color: #c81623;
+}
+.f10 {
+	color: #f10215 !important;
+}
+/* header end */
+
+
+/* quick navigation bar start */
+.shortcut {
+	height: 30px;
+	background-color: #e3e4e5;
+	border-bottom: 1px solid #ddd;
+	font-size: 12px;
+	line-height: 30px;
+	color: #999;
+}
+.shortcut ul.fr li{
+	float: left;
+} 
+.location {
+	margin-left: 200px;
+}
+.spacer {
+	height: 10px;
+	width: 1px;
+	background-color: #ccc;
+	margin: 10px 12px;
+}
+.mobile {
+	position: relative;
+}
+.mobile img {
+	position: absolute;
+	padding: 2px;
+	left: -8px;
+	top: 30px;
+	border:1px solid #ccc;
+}
+/* quick navigation bar end */
+
+
+/* middle bar start */
+.middle {
+	height: 140px;
+	background-color: #abc;
+}
+.logo a {
+	display: block;
+	width: 190px;
+	height: 170px;
+	background: url(../images/logo.png) no-repeat;
+}
+/* middle bar end */
