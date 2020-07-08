@@ -1,0 +1,47 @@
+ /*grid start */
+.grid {
+	height: 480px;
+}
+/*grid-col1*/
+.grid-col1 {
+	width: 190px;
+	height: 100%;
+	background-color: #6e6568;
+	color: #fff;
+	font-size: 14px;
+}
+.grid-col1 ul {
+	padding: 10px 0;
+}
+.grid-col1 ul li {
+	padding: 0 12px;
+	height: 29px;
+	line-height: 26px;
+}
+.grid-col1 ul li:hover {
+	background-color: #9c9698;
+}
+.grid-col1 a {
+	color: #fff;
+	font-size: 14px;
+	margin: 0 3px;
+}
+.grid-col1 a:hover {
+	color: #f10215;
+}
+/*grid-col2*/
+.grid-col2 {
+	width: 790px;
+	height: 100%;
+	margin-left: 10px
+}
+.grid-col2-bottom {
+	margin-top: 10px;
+}
+/*grid-col3*/
+.grid-col3 {
+	width: 190px;
+	height: 100%;
+	background-color: #dde;
+}
+/* grid end 

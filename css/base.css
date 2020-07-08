@@ -23,7 +23,9 @@ input,button {
 	border: 0;
 	outline: none;
 }
-
+img {
+	vertical-align: top; /*解决图片底部有空隙的问题*/
+}
 
 
 /* header start */
@@ -195,9 +197,123 @@ footer {
 	background-color: #eaeaea;
 	margin-top: 35px;
 }
+/*service*/
 .service {
-	height: 102px;
+	height: 72px;
 	border-bottom: 1px solid #dedede;
-	line-height: 102px;
+	padding-top: 30px;
+}
+.service li {
+	height: 43px;
+	width: 297px;
+	line-height: 43px;
+	position: relative;
+	float: left;
+}
+.service li p {
+	font-weight: 700;
+	margin-left: 82px;
+}
+.service li h5 {
+	position: absolute;
+	top: 0;
+	left: 38px;
+	width: 36px;
+	height: 43px;
+	background: url(../images/ico.png) no-repeat;
+}
+.service li:nth-child(2) h5 {
+	background-position: 0 -43px;
+}
+.service li:nth-child(3) h5 {
+	background-position: 0 -86px;
+}
+.service li:nth-child(4) h5 {
+	background-position: bottom;
+}
+/*help*/
+.help {
+	height: 200px;
+	border-bottom: 1px solid #ccc;
+	padding-top: 25px;
+	box-sizing: border-box;
+	color: #666;
+}
+.help dl {
+	width: 192px;
+	float: left;
+}
+.help dt {
+	height: 30px;
+	font-size: 14px;
+	font-weight: 700;
+}
+.help dd {
+	height: 22px;
+	font-size: 12px;
+}
+/*coverage*/
+.coverage {
+	height: 150px;
+	width: 200px;
+	background-color: #add;
+	background: url(../images/ico_footer.png) no-repeat;
+}
+.coverage h5 {
+	height: 30px;
+	font-size: 16px;
+	text-align: center;
+}
+.coverage p {
+	text-align: center;
+	line-height: 18px;
+	font-size: 12px;
+	padding: 0 10px;
+}
+.coverage a {
+	display: block;
+	margin-top: 5px;
+	text-align: right;
+}
+/*copyright*/
+.copyright {
+	padding-top: 20px;
+	text-align: center;
+	color: #666;
+	font-size: 12px;
+}
+.copyright span {
+	margin: 0 10px;
+}
+.copyright a {
+	color: #666;
+}
+.copyright div {
+	margin-top: 20px;
+}
+.copyright div p {
+	line-height: 22px;
+}
+.footer-icon a {
+	margin: 10px 4px 0;
+	width: 104px;
+	height: 34px;
+	background: url(../images/ico_footer.png) no-repeat 0 -150px;
+	display: inline-block;
+}
+.footer-icon a:nth-child(2) {
+	background-position: -103px -150px;
+}
+.footer-icon a:nth-child(3) {
+	background-position: 0 -183px;
+}
+.footer-icon a:nth-child(4) {
+	background-position: -103px -183px;
+}
+.footer-icon a:nth-child(5) {
+	background-position: 0px -216px;
+}
+.footer-icon a:nth-child(6) {
+	background-position: -103px -216px;
 }
 /* footer end */
